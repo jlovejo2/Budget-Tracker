@@ -22,7 +22,7 @@ mongoose.connect("mongodb://localhost/budget", {
 });
 
 // routes
-app.use(require("./routes/api.cjs"));
+app.use(require("./routes/api.js"));
 
 // app.get("/", (req, res) => {
 //   res.sendFile(path.join(__dirname + "./public/index.html"));

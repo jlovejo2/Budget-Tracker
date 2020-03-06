@@ -1,3 +1,5 @@
+// import { useIndexedDb } from "./db";
+
 let transactions = [];
 let myChart;
 
@@ -151,3 +153,8 @@ document.querySelector("#add-btn").onclick = function() {
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
+
+// function saveRecord(object) {
+//   console.log('save record');
+//   useIndexedDb("budget", "transaction", "put", object);
+// }

@@ -1,8 +1,11 @@
 const FILES_TO_CACHE = [
-"/",/*"/index.html"*/ 
-"index.js", 
+"./index.html", 
+"./styles.css",
 "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-"indexedDb.js"
+"./icons/icon-192x192.png",
+"./icons/icon-512x512.png",
+"./manifest.webmanifest",
+"https://cdn.jsdelivr.net/npm/chart.js@2.8.0"
 ];
 
 const CACHE_NAME = "static-cache-v2";
